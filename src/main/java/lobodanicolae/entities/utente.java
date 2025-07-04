@@ -23,13 +23,13 @@ public class utente {
     }
 
     // Costruttore completo
-    public utente(int id, String nome, String cognome, java.time.LocalDate data_nascita, int numero_tessera) {
-        this.id = id;
+    public utente(String nome, String cognome, java.time.LocalDate data_nascita, int numero_tessera) {
         this.nome = nome;
         this.cognome = cognome;
         this.data_nascita = data_nascita;
         this.numero_tessera = numero_tessera;
     }
+
 
     // Getter metodi
 
