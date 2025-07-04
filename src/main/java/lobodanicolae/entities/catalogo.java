@@ -2,6 +2,7 @@ package lobodanicolae.entities;
 
 import jakarta.persistence.*;
 
+
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class catalogo {
