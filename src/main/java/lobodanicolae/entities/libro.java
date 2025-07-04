@@ -15,12 +15,14 @@ public class libro extends catalogo {
     public libro() {
     }
 
-    public libro(int id, String titolo, int anno_pubblicazione, int numero_pagine, int id_isbn, autore autore, genere genere) {
-        super(id, titolo, anno_pubblicazione, numero_pagine);
+
+    public libro(String titolo, int anno_pubblicazione, int numero_pagine, int id_isbn, autore autore, genere genere) {
+        super(titolo, anno_pubblicazione, numero_pagine);
         this.id_isbn = id_isbn;
         this.autore = autore;
         this.genere = genere;
     }
+
 
     public int getId_isbn() {
         return id_isbn;

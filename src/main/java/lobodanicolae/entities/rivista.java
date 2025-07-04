@@ -21,6 +21,13 @@ public class rivista extends catalogo {
         this.periodicita = periodicita;
     }
 
+    // Costruttore senza id
+    public rivista(String titolo, int anno_pubblicazione, int numero_pagine, int id_isbn, periodicita periodicita) {
+        super(titolo, anno_pubblicazione, numero_pagine);
+        this.id_isbn = id_isbn;
+        this.periodicita = periodicita;
+    }
+
     public int getId_isbn() {
         return id_isbn;
     }

@@ -17,9 +17,16 @@ public abstract class catalogo {
     public catalogo() {
     }
 
-    // Costruttore completo
+    // Costruttore
     public catalogo(int id, String titolo, int anno_pubblicazione, int numero_pagine) {
         this.id = id;
+        this.titolo = titolo;
+        this.anno_pubblicazione = anno_pubblicazione;
+        this.numero_pagine = numero_pagine;
+    }
+
+    // Costruttore senza id
+    public catalogo(String titolo, int anno_pubblicazione, int numero_pagine) {
         this.titolo = titolo;
         this.anno_pubblicazione = anno_pubblicazione;
         this.numero_pagine = numero_pagine;
